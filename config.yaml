@@ -1,0 +1,15 @@
+# Ses ayarlari
+sample_rate: 16000      # Hz
+clip_duration: 1.0      # saniye
+pre_onset: 0.1          # saniye, atis anindan onceki pay
+
+# Log-Mel spektrogram ayarlari
+n_fft: 512              # 32 ms
+hop_length: 256         # 16 ms
+n_mels: 40
+
+# Siniflar
+classes:
+  - silah
+  - karistirici
+  - arka_plan
